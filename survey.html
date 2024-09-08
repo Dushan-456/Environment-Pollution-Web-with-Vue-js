@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco Earth - Organic & Natural</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+    <!-----Header-->
+
+    <header class="header"> 
+        <nav class="navmenu">
+            <ul id="top">
+                <li><a href="solution.html">Solutions</a></li>
+                <li><a href="blog.html">Eco Blog</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                
+            </ul>
+        
+            <a href="index.html"><img src="images/ecoearthbg (3).png" alt="Logo"></a>
+        <ul>
+            <li ><a href="index.html">Home</a></li>
+            <li><a href="footprint.html">Foot Print</a></li>
+            <li class="active"><a href="survey.html">Survey</a></li>
+            <li><a href="index.html#effects">Effects</a></li>
+            <li><a href="survey.html"><button >Join Survey</button></a></li>
+        </ul>
+        </nav>
+    </header>
+        <!-----Mobile Header-->
+        <header class="mobile-header"> 
+            <nav class="mobile-navmenu">
+            <a href="index.html"><img src="images/ecoearthbg (3).png" alt="Logo"></a>
+            <input type="checkbox" id="check">
+            <label for="check">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <div class="mobile-menu">
+            <ul>
+                <input type="checkbox" id="check">
+            <label for="check">
+                <i class="fa-solid fa-xmark"></i></a>
+            </label>
+    
+                <li><a href="index.html">Home</a></li>
+                <li><a href="">Feedback</a></li>
+                <li class="active"><a class="active" href="survey.html">Survey</a></li>
+                <li><a href="index.html#effects">Effects</a></li>
+                <li><a href="">Solutions</a></li>
+                 <li><a href="blog.html">Eco Blog</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+            </div>
+            </nav>
+        </header>
+<!-----Hero-->
+
+<div class="bloghero">
+    <h1>Eco Earth Plastic Polution Survey</h1>
+    <h2><i>“ Let's Turn the Tide on Plastic Pollution!” </i></h2>
+   
+</div>
+
+<!---------------Survey Form------------->
+ <div class="surveyformcontainer">
+    <form class="surveyform" action="">
+        <ol>
+            <li>
+                <label for="surveyname">First Name</label>
+                <input type="text" id="surveyname" placeholder="Enter Your First name" required>
+            
+                <label for="surveylastname">Last Name</label>
+                <input type="text" id="surveylastname" placeholder="Enter Your Last name" required> <br>
+            </li>
+            <li>
+                <label for="surveyemail">Email Address</label>
+                <input type="email" id="surveyemail" placeholder="abcde@gmail.com" required> 
+            </li><br>
+            <li>
+                <label for="">Your Mobile Number</label>
+                <input type="number" placeholder="071-12 56 896">
+            </li><br>
+            <li>
+                <label for="">Select Your District</label>
+                <select name="" id="">
+                    <option value="">- Select -</option>
+                    <option value="">Jaffna</option>
+                    <option value="">Anuradhapura</option>
+                    <option value="">Hambantota</option>
+                    <option value="">Kandy</option>
+                    <option value="">Matale</option>
+                    <option value="">Ampara</option>
+                    <option value="">Batticaloa</option>
+                    <option value="">Kalutara</option>
+                    <option value="">Kilinochchi</option>
+                    <option value="">Mullaitivu</option>
+                    <option value="">Nuwara Eliya</option>
+                    <option value="">Colombo</option>
+                    <option value="">Galle</option>
+                    <option value="">Kegalle</option>
+                    <option value="">Mannar</option>
+                    <option value="">Kurunegala</option>
+                    <option value="">Gampaha</option>
+                    <option value="">Matara</option>
+                    <option value="">Badulla</option>
+                    <option value="">Moneragala</option>
+                    <option value="">Vavuniya</option>
+                    <option value="">Puttalam</option>
+                    <option value="">Ratnapura</option>
+                </select>
+            </li><br>
+            <li>
+                <label for="">Your Education Level ?</label><br><br>
+                <input type="radio"><label for="">Less than ordinary Level</label><br>
+                <input type="radio"><label for="">Ordinary Level</label><br>
+                <input type="radio"><label for="">Advance Level</label><br>
+                <input type="radio"><label for="">Diploma complete</label><br>
+                <input type="radio"><label for="">Degree Complete</label><br>
+                <input type="radio"><label for="">More than Degree</label><br>
+            </li><br>
+            <li>
+                <label for="surveygender">What is your gender :</label> <br>
+                <input type="radio" id="male" name="surveygender"  required>
+                <label for="male">Male</label> <br>
+                <input type="radio" id="female" name="surveygender" required>
+                <label for="female">Female</label> 
+            </li>
+            <br>
+            <li>
+                <label for="surveyage">which age group do you belong to :</label> <br>
+                <select  id="surveyage"  required >
+                    <option >- Select -</option>
+                    <option value="17 or under">17 or under</option>
+                    <option value="18-25">18 - 25</option>
+                    <option value="26-35">26 - 35</option>
+                    <option value="35-50">35 - 50</option>
+                    <option value="Above">Above</option>
+                    
+                </select>
+            </li><br>
+            <li>
+                <label for="Do you know what plastic pollution is?">Do you know what plastic pollution is?</label> <br>
+                <input type="radio" id="yes" name="Do you know what plastic pollution is?" required><label for="yes">Yes</label> <br>
+                <input type="radio" id="no" name="Do you know what plastic pollution is?" required><label for="no">No</label>
+            </li><br>
+            <li>
+                <label for="">Which plastic products do you use most often?</label> <br><br>
+                <input type="checkbox" id=""><label for="">Plastic bags</label> <br>
+                <input type="checkbox" id=""><label for="">Plastic bottles</label> <br>
+                <input type="checkbox" id=""><label for="">Plastic buckets, bins, barrels, Storage containers</label> <br>
+                <input type="checkbox" id=""><label for="">Plastic disposables (Straws, plates, spoons, glasses and others)</label> <br>
+                <input type="checkbox" id=""><label for="">Packaging (bottles, sachets, food container from food delivery,  cling wraps, cosmetic containers)</label> <br>
+            </li><br><br><br>
+            <li>
+                <label for="">Why do you prefer to use the plastic products- especially plastic bags?</label> <br><br>
+                <input type="checkbox" id=""><label for="">They are cheap</label> <br>
+                <input type="checkbox" id=""><label for="">They are light in Weight</label> <br>
+                <input type="checkbox" id=""><label for="">They are easily available</label> <br>
+                <input type="checkbox" id=""><label for="">Lack of alternative materials</label> <br>
+            </li><br><br><br>
+            <li>
+                <label for="">Which of the following items do you think contribute most to plastic pollution? </label> <br><br>
+                <input type="checkbox" id=""><label for="">Plastic bags</label> <br>
+                <input type="checkbox" id=""><label for="">Plastic bottles</label> <br>
+                <input type="checkbox" id=""><label for=""> Straws</label> <br>
+                <input type="checkbox" id=""><label for="">Food packaging</label> <br>
+            </li><br><br><br>
+            <li>
+                <label for="">How often do you buy plastic equipment?</label> <br><br>
+                <input type="radio"><label for="">Never</label><br>
+                <input type="radio"><label for="">Sometimes</label><br>
+                <input type="radio"><label for="">All the time</label><br>
+            </li><br><br>
+            <li>
+                <label for="">How many plastic bottles do you buy/use per week?</label> <br><br>
+                <input type="radio"><label for="">I do not use Plastic bottle</label><br>
+                <input type="radio"><label for="">1  -  2</label><br>
+                <input type="radio"><label for="">3  -  5</label><br>
+                <input type="radio"><label for="">6  -  8</label><br>
+                <input type="radio"><label for="">8  -  10</label><br>
+                <input type="radio"><label for="">More than 10</label><br>
+            </li><br><br>
+            <li>
+                <label for="">Have you seen or read any documentaries that show the affects plastic waste has on the environment and health?</label> <br><br>
+                <input type="radio"><label for="">Yes</label><br>
+                <input type="radio"><label for="">No</label><br>
+                <input type="radio"><label for="">Don't Remember</label><br>
+            </li><br><br>
+            <li>
+                <label for="">How often do you help with reducing plastic pollution?</label> <br><br>
+                <input type="radio"><label for="">I help a lot</label><br>
+                <input type="radio"><label for="">I help a little bit</label><br>
+                <input type="radio"><label for="">I don’t help at all</label><br>
+                <input type="radio"><label for="">I would like to help but don’t know how</label><br>
+            </li><br><br>
+            <li>
+                <label for="">Which of the following ideas would you be more helpful for reducing pollution?</label> <br><br>
+                <input type="radio"><label for="">Extra charge for plastic packaging </label><br>
+                <input type="radio"><label for="">Ditching the plastic all together and switching to reusable</label><br>
+                <input type="radio"><label for="">Getting a small amount of money back or off your purchase for using reusable bags\cups</label><br>
+                <input type="radio"><label for="">Joining a community cleanup crew to help reduce waste</label><br>
+                <input type="radio"><label for="">Buying your dry goods in bulk at an affordable price (pasta, beans, rice, oats)</label><br>
+            </li><br><br>
+            <li>
+                <label for="">Does excessive plastic packaging annoy you?</label> <br><br>
+                <input type="radio"><label for="">Yes</label><br>
+                <input type="radio"><label for="">No</label><br>
+                <input type="radio"><label for="">Other</label><br>
+            </li><br><br>
+            <li>
+                <label for="">Do you think all kinds of plastic are recycled?</label> <br><br>
+                <input type="radio"><label for="">Yes</label><br>
+                <input type="radio"><label for="">No</label><br>
+                <input type="radio"><label for="">Not All Kind</label><br>
+            </li><br><br>
+            <li>
+                <label for="">Do you recycle?</label> <br><br>
+                <input type="radio"><label for="">Yes</label><br>
+                <input type="radio"><label for="">No</label><br>
+                <input type="radio"><label for="">Sometimes</label><br>
+             
+            </li><br><br>
+            <li>
+                <label for="">Do you think plastic waste is a problem for health and environment?</label> <br><br>
+                <input type="radio"><label for="">Yes</label><br>
+                <input type="radio"><label for="">No</label><br>
+                <input type="radio"><label for="">Not Sure</label><br>
+               
+            </li><br><br>
+            <li>
+                <label for="">amongst those choices, which do you think is the most important plastic pollution problem?</label> <br><br>
+                <input type="radio"><label for="">Makes the city dirty</label><br>
+                <input type="radio"><label for="">Pollutes marine environments</label><br>
+                <input type="radio"><label for="">It releases toxic chemicals into the environment</label><br>
+                <input type="radio"><label for="">Severely impacts animals and birds (ingestion and entangling)</label><br>
+                <input type="radio"><label for="">Enters in the food chain and causes cancer</label><br>
+                <input type="radio"><label for="">Clogs drains, thus causing water logging in the city</label><br>
+                <input type="radio"><label for="">All</label><br>
+                <input type="radio"><label for="">None of the above</label><br>
+            </li><br><br>
+            <li>
+                <label for="">how would you rate plastic pollution in your region?</label> <br>
+                <label for="">On a scale of 0- 5 [0 = highly polluted with plastic, 5 = plastic waste is well managed]</label><br><br>
+                <input type="radio"><label for="">0</label><br>
+                <input type="radio"><label for="">1</label><br>
+                <input type="radio"><label for="">2</label><br>
+                <input type="radio"><label for="">3</label><br>
+                <input type="radio"><label for="">4</label><br>
+                <input type="radio"><label for="">5</label><br>
+            </li><br><br>
+            <li>
+                <label for="">What is the main reason for not switching to alternatives for plastics?</label> <br><br>
+                <input type="radio"><label for="">Not aware about them</label><br>
+                <input type="radio"><label for="">Not easily available</label><br>
+                <input type="radio"><label for="">Costly as compared to plastic</label><br>
+              
+            </li><br><br>
+            <li>
+                <label for="">If there is a project that aims to reduce plastic pollution, where do you think the focus should be on?</label><br><br>
+                <textarea name="" id="" cols="10" rows="10" placeholder="Type your ideas here............"></textarea>
+            </li><br><br><br>
+            <li>
+                <label for="">Suggest a creative way to manage\deal with plastic pollution</label><br><br>
+                <textarea name="" id="" cols="10" rows="20" placeholder="Type your ideas here............"></textarea>
+            </li><br><br><br>
+            <button type="reset">Reset Form</button><button type="submit">Submit</button>
+        </ol>
+
+    </form>
+ </div>
+     <!-------------------carbon foot print cal---------------------->
+<div class="carbonndiv">
+    <h1>Carbon Footprint </h1>
+    <img src="images/footprincal.jpeg" alt="">
+    <p>A carbon footprint calculator is a tool used to estimate the total amount of greenhouse gases, primarily carbon dioxide (CO2), emitted directly or indirectly by human activities into the atmosphere, typically measured in units of kilograms or metric tons of CO2 equivalent. These activities include energy consumption, transportation, food consumption, and other lifestyle choices. <br><br>
+
+        The calculator usually prompts users to input various data points related to their activities, such as electricity usage, fuel consumption for vehicles, distance traveled via different modes of transportation, and dietary habits. Based on this input, the calculator calculates the associated emissions using predefined emission factors or algorithms.</p>
+<a href="footprint.html"><button>Check Your Carbon Footprint</button></a>
+</div>
+
+    
+
+   <!----------Footer-------->
+
+   <footer>
+    <div class="footercontent">
+        <img src="images/ecoearthbg (3).png" alt="Logo">    
+        <h1>Eco Earth</h1>
+       <p><i>Join with Eco Earth,<br>
+         your digital guide to sustainable <br>
+          living! At Eco Earth, we believe <br>
+          in the power of small actions to <br>
+          make a big difference.</i></p>      
+        
+    </div>
+    <div class="footercontent">
+        <h1>Pages</h1>
+        <ul>
+            <a href="index.html"><li>Home </li></a>
+            <a href="contact.html"><li>Contact Us</li></a>
+            <a href="about.html"><li>About Us </li></a>
+            <a href="blog.html"><li>Blog </li></a>
+            <a href=""><li>Social</li></a>
+            <a href=""><li>Community</li></a>
+        </ul>
+    </div>
+    <div class="footercontent">
+        <h1>Quick Links</h1>
+        <ul>
+            <a href="blog-post.html"><li>Blog Posts</li></a>
+            <a href="survey.html"><li>Join Survey</li></a>
+            <a href=""><li>Feedback </li></a>
+            <a href=""><li>Solutions</li></a>
+            <a href=""><li>Effects</li></a>
+            <a href=""><li>Eco Earth</li></a>
+        </ul>
+    </div>
+    <div class="footercontent">
+       <div> 
+        <h1>Contact Eco Earth</h1>
+        <h3>Subscribe Eco newsletter</h3>
+        <form action="">
+            <input class="footerinput" type="text" id="footeremail" placeholder="Enter Your Email ">
+            <button class="subscribe" type="submit">Subscribe</button>
+        </form>
+       </div>
+        <ul>
+            <a href=""><i class="fa-solid fa-square-phone"></i><li>071 9675669 </li></a><br>
+            <a href=""><i class="fa-solid fa-envelope"></i><li>info@ecoearth.com </li></a><br>
+            <a href=""><i class="fa-brands fa-facebook"></i><li>Eco Earth </li></a>
+       
+        </ul>
+    </div>
+
+    
+</footer>
+    <div class="copywrite">
+        <p>© COPYRIGHT 2024 ECO EARTH - ALL RIGHTS RESERVED
+            DEVELOPED & DESIGN BY DUSHAN</p>
+    </div>
+    <a href="#top"><img src="images/back2top.png" alt="back2top" class="back2top"></a>
+</body>
+</html>
