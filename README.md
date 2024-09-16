@@ -28,9 +28,26 @@ As the lead developer of Eco Erth, I was responsible for:
 
 Eco Erth has successfully established itself as a go-to destination for individuals passionate about environmental sustainability. With its intuitive interface, insightful content, and practical tools, the platform has empowered countless users to adopt greener lifestyles and contribute to a healthier planet.
 
+## Demo
+
+You can check out a live demo of the project here: [Live Demo Link](https://dushan-456.github.io/Environment-Pollution-Web-with-Vue-js/)
+
+
+
 ## Getting Started
 
 1. Clone the repository:
 
    ```bash
    git clone https://github.com/your-username/eco-erth.git
+
+
+  ## ScreenShots
+
+  ![All Vehicles](https://github.com/Dushan-456/Environment-Pollution-Web-with-Vue-js/blob/main/Sample%20Images/Screenshot-2024-04-27-191319%20(1).png)
+
+  ![All Vehicles](https://github.com/Dushan-456/Environment-Pollution-Web-with-Vue-js/blob/main/Sample%20Images/Screenshot-2024-04-27-191330-1024x551%20(1).png)
+  ![All Vehicles](https://github.com/Dushan-456/Environment-Pollution-Web-with-Vue-js/blob/main/Sample%20Images/Screenshot-2024-04-27-191352-1024x551%20(1).png)
+  ![All Vehicles](https://github.com/Dushan-456/Environment-Pollution-Web-with-Vue-js/blob/main/Sample%20Images/Screenshot-2024-04-27-191419-1024x551%20(1).png)
+  ![All Vehicles](https://github.com/Dushan-456/Environment-Pollution-Web-with-Vue-js/blob/main/Sample%20Images/Screenshot-2024-04-27-191452-1024x551%20(1).png)
+
